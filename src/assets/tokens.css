@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #0076ff;
+  --color-danger: #d7263d;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --font-size-base: 16px;
+  --font-family-base: Arial, sans-serif;
+}

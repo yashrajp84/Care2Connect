@@ -1,0 +1,11 @@
+.container {
+  font-family: var(--font-family-base);
+  padding: var(--spacing-md);
+}
+
+.header {
+  background: var(--color-primary);
+  color: white;
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
