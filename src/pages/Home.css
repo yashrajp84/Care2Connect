@@ -1,0 +1,102 @@
+.home-wrapper {
+  padding: 16px;
+  font-family: system-ui, sans-serif;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.lang-toggle {
+  font-weight: bold;
+}
+
+.scenario-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.scenario-card {
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  color: #003366;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.scenario-card img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 8px;
+}
+
+.danger img {
+  filter: hue-rotate(0deg); /* red */
+}
+.warning img {
+  filter: hue-rotate(30deg); /* orange/yellow */
+}
+.info img {
+  filter: hue-rotate(210deg); /* blue */
+}
+
+.call-blocks {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 0.95rem;
+}
+
+.call-button {
+  display: block;
+  margin: 8px auto;
+  padding: 12px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 320px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+.call-button.green {
+  background-color: #4caf50;
+  color: white;
+}
+
+.call-button.red {
+  border: 2px solid #8B0000;
+  color: #8B0000;
+  background: white;
+}
+
+.footer-nav {
+  margin-top: 32px;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #888;
+}
+
+.footer-nav a.active {
+  color: #000;
+  font-weight: bold;
+}
