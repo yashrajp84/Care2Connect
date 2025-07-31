@@ -1,27 +1,22 @@
+/* === Container Layout === */
 .container {
   font-family: var(--font-family-base);
-  padding: var(--spacing-md);
-}
-
-.header {
-  background: var(--color-primary);
-  color: white;
-  padding: var(--spacing-md);
-  margin-bottom: var(--spacing-md);
-}
-
-.container {
   padding: 16px;
+}
+
+/* === Header Section === */
+.header {
+  background-color: #510101;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
 }
 
 .header h2 {
   font-weight: 700;
-  color: #fff;
-  background-color: #510101;
-  padding: 12px 16px;
-  border-radius: 6px;
   font-size: 18px;
-  margin-bottom: 4px;
+  margin: 0;
 }
 
 .breadcrumb {
@@ -31,6 +26,7 @@
   padding-left: 2px;
 }
 
+/* === Content Styling === */
 .content h3 {
   font-size: 20px;
   font-weight: 600;
@@ -43,6 +39,7 @@
   margin-bottom: 16px;
 }
 
+/* === Card Options === */
 .options {
   display: flex;
   gap: 12px;
@@ -67,13 +64,67 @@
   margin-bottom: 8px;
 }
 
+/* === Text Notes & Descriptions === */
 .unsure {
   font-size: 14px;
   color: #111;
   margin-bottom: 16px;
 }
 
-.note {
-  font-size: 13px;
-  color: #666;
+.note,
+.hint {
+  font-size: 14px;
+  color: #444;
+  margin: 16px 0 10px;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.sub,
+.subheading {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.subheading {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* === Symptom List === */
+.symptoms {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 16px;
+  color: #777;
+  font-size: 14px;
+}
+
+.symptoms li::before {
+  content: '• ';
+  color: #999;
+}
+
+/* === Links & Buttons === */
+.secondaryButton {
+  display: block;
+  background-color: #e3f0ff;
+  color: #003087;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+
+.moreLink {
+  color: #0066cc;
+  text-decoration: underline;
 }
