@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import EmergencyCallButton from '../../components/ui/EmergencyCallButton'
+import ActionButton from '../../components/ui/ActionButton'
 import styles from './scenario.module.css'
 
 export default function SuspectedDrugOverdose() {
@@ -37,6 +38,10 @@ export default function SuspectedDrugOverdose() {
         </p>
 
         <EmergencyCallButton phone="000" />
+        
+        <ActionButton to="/scenarios/a-drug-overdose/resources">
+          View All Resources
+        </ActionButton>
       </div>
     </div>
   )

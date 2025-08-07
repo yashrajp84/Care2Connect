@@ -1,6 +1,7 @@
 import CTAButton from '../../components/ui/CTAButton'
 import StepAccordion from '../../components/ui/StepAccordion'
 import EmergencyCallButton from '../../components/ui/EmergencyCallButton'
+import ActionButton from '../../components/ui/ActionButton'
 import { breathingConfig } from './config'
 import styles from './scenario.module.css'
 
@@ -39,6 +40,10 @@ export default function Breathing() {
         <Link to="https://example.com/what-is-naloxone" className={styles.secondaryButton}>
           What is Naloxone?
         </Link>
+        
+        <ActionButton to="/scenarios/a-drug-overdose/resources">
+          Continue to Resources
+        </ActionButton>
       </div>
     </div>
   )

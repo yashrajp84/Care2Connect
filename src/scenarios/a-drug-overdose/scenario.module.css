@@ -128,3 +128,23 @@
   color: #0066cc;
   text-decoration: underline;
 }
+
+/* === Action Button === */
+.actionButton {
+  display: block;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 16px 0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.actionButton:hover {
+  background-color: #0062d6;
+}

@@ -1,6 +1,7 @@
 //import CTAButton from '../../components/ui/CTAButton'
 //import StepAccordion from '../../components/ui/StepAccordion'
 import EmergencyCallButton from '../../components/ui/EmergencyCallButton'
+import ActionButton from '../../components/ui/ActionButton'
 import { Link } from 'react-router-dom'
 import styles from './scenario.module.css'
 
@@ -34,6 +35,10 @@ export default function Unconscious() {
         <Link to="https://example.com/what-is-naloxone" className={styles.secondaryButton}>
           What is Naloxone?
         </Link>
+        
+        <ActionButton to="/scenarios/a-drug-overdose/breathing">
+          Continue to Breathing Check
+        </ActionButton>
       </div>
     </div>
   )
